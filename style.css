@@ -12,7 +12,15 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap:2rem;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 60%;
+    gap:5rem;
 }
 
 .img-container{

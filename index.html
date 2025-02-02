@@ -8,15 +8,25 @@
 </head>
 <body>
     <div class="main-container">
-        <div class="img-container">
-            <img src="https://picsum.photos/id/231/200/300" alt="" class="slides">
-            <img src="https://picsum.photos/id/232/200/300" alt="" class="slides">
-            <img src="https://picsum.photos/id/233/200/300" alt="" class="slides">
-            <img src="https://picsum.photos/id/234/200/300" alt="" class="slides">
+        <div class="buttons">
+            <button class="btn" onclick="goUp()">Up</button>
+        </div>
+        <div class="row">
+            <div class="buttons">
+                <button class="btn" onclick="goPrev()">Prev</button>
+            </div>
+            <div class="img-container">
+                <img src="https://picsum.photos/id/231/200/300" alt="" class="slides">
+                <img src="https://picsum.photos/id/232/200/300" alt="" class="slides">
+                <img src="https://picsum.photos/id/233/200/300" alt="" class="slides">
+                <img src="https://picsum.photos/id/234/200/300" alt="" class="slides">
+            </div>
+            <div class="buttons">
+                <button class="btn" onclick="goNext()">Next</button>
+            </div>
         </div>
         <div class="buttons">
-            <button class="btn" onclick="goPrev()">Prev</button>
-            <button class="btn" onclick="goNext()">Next</button>
+            <button class="btn" onclick="goDown()">Down</button>
         </div>
     </div>
     <script src="script.js"></script>
